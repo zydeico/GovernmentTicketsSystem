@@ -49,32 +49,42 @@ while not rs.eof
                               <input name="vehiculo" type="text" id="vehiculo" value="<%response.write(rs("vehiculo"))%> " />
                               </label>
                               </td>
-                              
+
                           <td width="25%" rowspan="8" align="center" valign="top"><p>&nbsp;</p>
                               <p><span class="style1"><strong>Folio: </strong>
                                     <%response.write(rs("id"))%>
                               </span>
+
                                 <input name="cambio" type="hidden" value="<%response.write(rs("id"))%>" />
                             </p>
-                            <p><strong>Clave: </strong>
+
+                            <p>
+                            <strong>Clave: </strong>
                                   <%response.write(rs("clave"))%>
                               </p>
+
                             <p>&nbsp;</p></td>
                         </tr>
+
                         <tr>
                           <td align="right">&nbsp;</td>
                           <td>&nbsp;
                              
-                              <label></label></td>
+                              <label>
+                              </label>
+                              </td>
                         </tr>
+
                         <tr>
                           <td align="right"><strong>Lugar a visitar:</strong> </td>
                           <td>&nbsp;
                               
                               <label>
                               <input name="lugar" type="text" id="lugar" value="<%response.write(rs("lugar"))%>" />
-                              </label></td>
+                              </label>
+                              </td>
                         </tr>
+                        
                         <tr>
                           <td align="right"><strong>Asunto:</strong></td>
                           <td>&nbsp;
