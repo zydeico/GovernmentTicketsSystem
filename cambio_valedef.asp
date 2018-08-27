@@ -108,7 +108,7 @@ while not rs.eof
                         <tr>
                           <td align="right"><strong>Fecha:</strong></td>
                           <td>&nbsp;
-                              
+                                
                               <label>
                               <input name="fecha" type="text" id="fecha" value="<%response.write(rs("fe"))%>" />
                               </label></td>
