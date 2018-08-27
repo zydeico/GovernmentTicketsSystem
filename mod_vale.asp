@@ -9,7 +9,7 @@ end if%>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Modificador de Vale V1</title>
+<title>Modificador de Vale de Combustible</title>
 </head>
 
 <body>
