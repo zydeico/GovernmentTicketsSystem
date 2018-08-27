@@ -14,7 +14,7 @@ var checkOK = "0123456789.";
     }
   }
   if (!allValid) {
-    alert("Escriba sólo numeros en el campo LITROS");
+    alert("Escriba sï¿½lo numeros en el campo LITROS");
     formulario.litros.focus();
     return (false);
   }
@@ -32,14 +32,14 @@ var checkOK = "0123456789";
     }
   }
   if (!allValid) {
-    alert("Escriba sólo numeros en el campo kilometraje");
+    alert("Escriba sï¿½lo numeros en el campo kilometraje");
     formulario.kilometraje.focus();
     return (false);
   }
 
 
   if (formulario.vehiculo.value.length < 1) {
-    alert("Escriba el nombre del vehìculo");
+    alert("Escriba el nombre del vehï¿½culo");
     formulario.vehiculo.focus();
     return (false);
 	 
@@ -105,17 +105,12 @@ if (formulario.fechas.value.length < 9) {
     }
   }
   if (!allValid) {
-    alert("Escriba sólo numeros en el campo cuenta");
+    alert("Escriba sï¿½lo numeros en el campo cuenta");
     formulario.cuenta.focus();
     return (false);
   }
  
 }
-
-
-                  
-                       
-
 //-->
 </script>
 
@@ -164,13 +159,6 @@ response.Write("-----"&tyu&"------Fuera de horario------")
 'response.Redirect("fueradehorario.asp")
 end if
 end if
-
-
-
-
-
-
-
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -921,7 +909,7 @@ end if
           </label></td>
         </tr>
         <tr>
-          <td align="right">Comisión </td>
+          <td align="right">Comisiï¿½n </td>
           <td><label>
             <input name="comision" type="text" id="comision" />
           </label></td>
@@ -929,7 +917,7 @@ end if
 
 
         <tr><SCRIPT>
-  window.alert("AVISO: Se les informa que todos los vehículos deberán de pasar a verificación. En caso de infracción, el director del departamento deberá de pagar la infracción. ATENTAMENTE: OFICIALIA MAYOR  ||  LOS DÍAS DE CARGA SERÁN: LUNES, MIÉRCOLES Y VIERNES de 7 am a 12 pm.");
+  window.alert("AVISO: Se les informa que todos los vehï¿½culos deberï¿½n de pasar a verificaciï¿½n. En caso de infracciï¿½n, el director del departamento deberï¿½ de pagar la infracciï¿½n. ATENTAMENTE: OFICIALIA MAYOR  ||  LOS Dï¿½AS DE CARGA SERï¿½N: LUNES, MIï¿½RCOLES Y VIERNES de 7 am a 12 pm.");
 </SCRIPT>
           <td align="right">Lugar a Visitar </td>
           <td><label>
@@ -958,7 +946,7 @@ end if
 Calendar.setup({
 inputField : "fechas", // id del campo de texto
 ifFormat : "%d/%m/%Y", // formato de la fecha que se escriba en el campo de texto
-button : "lanzador" // el id del botón que lanzará el calendario
+button : "lanzador" // el id del botï¿½n que lanzarï¿½ el calendario
 });
 </script>
 </td>

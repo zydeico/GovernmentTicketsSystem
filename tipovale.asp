@@ -133,7 +133,7 @@ if rs("admin") = 1 then
 	
 
 	<tr>
-    <td align="center" bgcolor="#CCCCCC" class="style4"><span class="style5"><a href="mod_vale.asp" class="style4">MODIFICACION DE VALE DE VALE</a> <a href="bomberos.asp" class="style4"></a></span></td>
+    <td align="center" bgcolor="#CCCCCC" class="style4"><span class="style5"><a href="mod_vale.asp" class="style4">MODIFICACION DE VALE</a> <a href="bomberos.asp" class="style4"></a></span></td>
   </tr>
 
 <tr>

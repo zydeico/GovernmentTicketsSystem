@@ -45,9 +45,11 @@ while not rs.eof
                           <td width="25%" rowspan="8" align="center" valign="top">&nbsp;</td>
                           <td width="23%" align="right"><strong>Veh&igrave;culo:</strong></td>
                           <td width="33%">&nbsp;
-                                                       <label>
+                              <label>
                               <input name="vehiculo" type="text" id="vehiculo" value="<%response.write(rs("vehiculo"))%> " />
-                              </label></td>
+                              </label>
+                              </td>
+                              
                           <td width="25%" rowspan="8" align="center" valign="top"><p>&nbsp;</p>
                               <p><span class="style1"><strong>Folio: </strong>
                                     <%response.write(rs("id"))%>
