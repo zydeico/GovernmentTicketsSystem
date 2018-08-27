@@ -23,26 +23,19 @@ xxo = request.querystring("fecha")
 di = request.QueryString("dep")
 
 %>
-
-
 <form id="form1" name="form1" method="post" action="updateficha.asp?fecha=<%response.Write(xxo)%>&dep=<%response.write(di)%>">
   <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
     <tr>
       <td align="center" valign="bottom"><p>
           <%
 xxoe = request.form("auto")
-
-
- SQL = "Select * from `fichas` where `id` = '"&xxoe&"' order by id asc"
- 
+ SQL = "Select * from `vales` where `id` = '"&xxoe&"' order by id asc"
   Set conn = Server.CreateObject("ADODB.Connection")
  conn.Open "DRIVER={MySQL ODBC 3.51 Driver};SERVER=localhost;DATABASE=vales;USER=pmunicipal;PASSWORD=pm3649alto;OPTION=3;"
 Set rs = conn.Execute(SQL)
-
-
 while not rs.eof
 %>
-        CAMBIOS FICHAS </p>
+        CAMBIOS VALES </p>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td width="0%" valign="top"><table width="108%" height='246' border="0" cellpadding="1" cellspacing="1" bordercolor="#000000" bgcolor="#000000">
