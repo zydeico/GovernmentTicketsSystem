@@ -11,7 +11,7 @@ end if%>
 <title>Modificación de Vales</title>
 <style type="text/css">
 <!--
-.style1 {color: #FF0000}
+.style1 {color: rgb(42, 82, 170)}
 -->
 </style>
 </head>
