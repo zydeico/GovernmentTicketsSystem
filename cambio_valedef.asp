@@ -35,6 +35,7 @@ xxoe = request.form("auto")
 Set rs = conn.Execute(SQL)
 while not rs.eof
 %>
+
         CAMBIOS VALES </p>
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
