@@ -13,7 +13,7 @@ end if%>
 </head>
 
 <body>
-<form id="form1" name="form1" method="post" action="cambio_valedef.asp">
+<form id="form1" name="form1" method="post" action="modifi_vale.php">
   <label>
   <div align="center">Ingresa el folio del vale<br />
   <input name="auto" type="text" id="auto" />
