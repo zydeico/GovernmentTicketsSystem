@@ -10,10 +10,12 @@ if (isset($id)){
    //$sql = "UPDATE agenda SET nombre='$nombre', direccion='$direccion',"."telefono='$telefono', email='$email' WHERE id=$id";
    //$result = mysql_query($sql);
 
-   $sql = "UPDATE combustible SET vehiculo='$vehiculo', comision='$comision', kmactuales='$kmactuales', lugarvisita='$lugarvisita', asunto='$asunto´, lts='$lts', fe='$fe', cuenta='$cuenta WHERE id=$id";
+   $sql = "UPDATE combustible SET vehiculo='$vehiculo', comision='$comision', kmactuales='$kmactuales', lugarvisita='$lugarvisita', 
+   asunto='$asunto´, lts='$lts', fe='$fe', cuenta='$cuenta WHERE id=$id";
    $result = mysql_query($sql);
 
-}else{
+}
+else{
    echo "Debe especificar un 'id'.\n";
 }
 
